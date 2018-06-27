@@ -2,7 +2,7 @@ import * as functions from 'firebase-functions';
 import * as express from 'express'
 
 const app = express();
-app.get("/timestamp", (req, resp) => {
+app.get("/*", (req, resp) => {
     resp.send(`${Date.now()}`);
 });
 
