@@ -1,20 +1,22 @@
 {
-    "name": "parcel",
-    "version": "1.0.0",
-    "description": "",
-    "main": "src/index.ts",
-    "scripts": {
-      "watch": "parcel src/index.html",
-      "build": "parcel build src/index.html"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
-    "devDependencies": {
-      "firebase": "^4.9.0",
-      "node-sass": "^4.9.0",
-      "parcel-bundler": "^1.4.1",
-      "typescript": "^2.9.2"
-    }
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "watch": "parcel src/index.html src/auth_test.html",
+    "build": "parcel build src/index.html src/auth_test.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase": "^4.9.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.4.1",
+    "typings-for-css-modules-loader": "^1.7.0"
+  },
+  "dependencies": {
+    "firebase": "^4.13.1"
   }
-  
+}
